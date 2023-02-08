@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.nav{
+    font-size: 1.5rem;
+    color: rgb(99, 0, 99);
+}
+h3{
+    margin-bottom: .8rem;
+}
+a{
+    text-decoration: none;
+}
+.log-in{
+    margin-bottom: 3rem;
+}
+.list{
+    display: flex;
+    list-style: none;
+}
+.list-item{
+    margin-right: 3rem;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+}
+.list-item{
+    list-style: none;
+}
+.btn button{
+    padding: .7rem;
+    background-color: rgba(36, 1, 36, 0.774);
+    border: none;
+    border-radius: .3rem;
+    color: white;
+    cursor: pointer;
+}
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    min-height: 60vh;
+    margin: 5rem;
+}
+.form-container{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* padding: 3rem; */
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.9rem;
+}
+input{
+    padding: .6rem;
+    border-radius: 4px;
+    border-color: rgb(212, 212, 212);
+}
+label{
+    margin-bottom: 0.2rem;
+}
+.btn-create{
+    padding: .6rem;
+    width: 100%;
+    background-color: rgb(70, 0, 70);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.or{
+    color: gray;
+    text-align: center;
+    margin: 2rem;
+}
+/* .social-icon{
+    margin-bottom: ;
+} */
+.list-icon{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.fa-facebook-official {
+    color: blue;
+  }
+.fa-twitter {
+    color: dodgerblue;
+  }
+.form-container{
+    display: flex;
+}
+.para{
+    max-width: 600px;
+}
+.para{
+    margin-bottom: 3rem;
+}
+.left-container{
+    padding: 2rem;
+    flex: 80%;
+}
+.right-container{
+    padding: 2rem;
+    flex: 80%;
+    margin-left: 2rem;
+}
+.item{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+.fa-bars{
+    display: none;
+    cursor: pointer;
+}
+.fixed-element{
+    padding: 2rem;
+    width: 200px;
+    position: fixed;
+    right: 5px;
+    font-size: 50px;
+    bottom: 20px;
+    color: purple;
+}
+@media (max-width: 730px) {
+    .list-item{
+        display: none;
+    }
+    .btn-sell{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+        font-size: 1.9rem;
+    }
+    .form-container{
+        flex-direction: column;
+        margin: 1rem;
+    }
+}

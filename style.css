@@ -6,7 +6,7 @@
 .container{
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
+    align-items: center;
 }
 .nav{
     font-size: 1.5rem;
@@ -125,12 +125,12 @@ label{
     cursor: pointer;
 }
 .fixed-element{
-    padding: 2rem;
-    width: 200px;
+    /* padding: 2rem;
+    width: 200px; */
     position: fixed;
-    right: 5px;
-    font-size: 50px;
-    bottom: 20px;
+    /* right: 15px; */
+    font-size: 40px;
+    bottom: 0px;
     color: purple;
 }
 @media (max-width: 730px) {
